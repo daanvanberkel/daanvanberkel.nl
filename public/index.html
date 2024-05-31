@@ -1,8 +1,8 @@
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Daan van Berkel</title>
     <style>
         html, body {
@@ -23,6 +23,13 @@
             font-size: 1rem;
         }
 
+        img {
+            width: 300px;
+            height: 300px;
+            max-width: 100%;
+            border-radius: 100%;
+        }
+
         h1 {
             margin-bottom: 20px;
             font-size: 3em;
@@ -31,14 +38,32 @@
         a {
             color: inherit;
         }
+
+        .projects {
+            font-size: 0.8em;
+            margin-top: 20px;
+            text-align: center;
+
+            .title {
+                font-weight: bold;
+            }
+        }
     </style>
 </head>
 <body>
+    <img src="assets/me.jpg" alt="Me" />
     <h1>Daan van Berkel</h1>
     <div class="personal-links">
         <a href="https://gitlab.com/daanvanberkel" target="_blank" rel="noopener">GitLab</a> -
         <a href="https://github.com/daanvanberkel" target="_blank" rel="noopener">Github</a> -
         <a href="https://www.linkedin.com/in/daan-van-berkel-435770211/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+
+    <div class="projects">
+        <div class="title">Projecten</div>
+        <a href="https://soundboard.daanvanberkel.nl" target="_blank" rel="noopener">Soundboard</a> -
+        <a href="https://www.ishetalsnackdag.nl" target="_blank" rel="noopener">Is het al snackdag?</a> -
+        <a href="https://www.reiskosten.net" target="_blank" rel="noopener">Reiskosten</a>
     </div>
 </body>
 </html>
